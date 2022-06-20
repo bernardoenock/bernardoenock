@@ -2,9 +2,8 @@
 
 [![Header](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/readme_header.png "Header")](https://martinheinz.dev/)
 
-# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
-
-My name is Martin Heinz and I'm a software developer/DevOps engineer. I'm from Slovakia, living in Bratislava and currently working at IBM. You can find me on [![Twitter][1.2]][1],  or on [![LinkedIn][3.2]][3].
+# Oi, eu sou Enock! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
+Formado em informática básica no ensino médio, amante da tecnologia, produtor digital e artista!.
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
@@ -14,18 +13,10 @@ My name is Martin Heinz and I'm a software developer/DevOps engineer. I'm from S
 ![](https://img.shields.io/badge/Tools-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
 
-## &#x270d; Blog & Writing
+## &#x270d; About me
 
-Apart from coding, I also maintain a blog - you can find my articles on my website at [martinheinz.dev](https://martinheinz.dev/) as well as on [Medium](https://medium.com/@martin.heinz) and [DEV.to](https://dev.to/martinheinz).
+Atualmente estudo programação, estou finalizando meu curso de Full Stack na Kenzie Academy, onde a paixão por programação começou, pretendo me especializar em IA, estudar tecnologias úteis e ágeis, participar de projetos, trabalhar em empresas de tecnologia e fazer de tudo que estiver ao meu alcance para ajudar de alguma forma, a nossa espécie, evoluir! 
 
-A sample of my recent articles:
-
-<!-- BLOG-POST-LIST:START -->
-- [Data and System Visualization Tools That Will Boost Your Productivity](https://martinheinz.dev/blog/75)
-- [Stop Messing with Kubernetes Finalizers](https://martinheinz.dev/blog/74)
-- [Automate All the Boring Kubernetes Operations with Python](https://martinheinz.dev/blog/73)
-- [End-to-End Monitoring with Grafana Cloud with Minimal Effort](https://martinheinz.dev/blog/72)
-<!-- BLOG-POST-LIST:END -->
 
 ## &#x1f4c8; GitHub Stats
 
