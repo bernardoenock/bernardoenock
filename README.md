@@ -5,6 +5,10 @@
 # Oi, eu sou Enock! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
 Formado em informática básica no ensino médio, amante da tecnologia, produtor digital e artista!.
 
+## &#x270d; About me
+
+Atualmente estudo programação, estou finalizando meu curso de Full Stack na Kenzie Academy, onde a paixão por programação começou, pretendo me especializar em IA, estudar tecnologias úteis e ágeis, participar de projetos, trabalhar em empresas de tecnologia e fazer de tudo que estiver ao meu alcance para ajudar de alguma forma, a nossa espécie, evoluir! 
+
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
@@ -12,11 +16,6 @@ Formado em informática básica no ensino médio, amante da tecnologia, produtor
 ![](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
-
-## &#x270d; About me
-
-Atualmente estudo programação, estou finalizando meu curso de Full Stack na Kenzie Academy, onde a paixão por programação começou, pretendo me especializar em IA, estudar tecnologias úteis e ágeis, participar de projetos, trabalhar em empresas de tecnologia e fazer de tudo que estiver ao meu alcance para ajudar de alguma forma, a nossa espécie, evoluir! 
-
 
 ## &#x1f4c8; GitHub Stats
 
