@@ -1,15 +1,18 @@
 <!-- More info, tips and tricks for making GitHub Profile README can be found in my article at https://towardsdatascience.com/build-a-stunning-readme-for-your-github-profile-9b80434fe5d7 -->
 
-<img src="https://github.com/bernardoenock/bernardoenock/blob/main/assests/pixel-night.gif?raw=true" width="1000px" height="300px" />
+[<img src="https://github.com/bernardoenock/bernardoenock/blob/main/assests/pixel-night.gif?raw=true" width="1000px" height="300px" />](https://www.behance.net/gallery/92880429/ROG-Wallpaper-Design)
+-> Pixel Jeff
 
 # Oi, eu sou Enock! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
+
 Formado em informática básica no ensino médio, amante da tecnologia, produtor digital e artista!.
 
 ## &#x270d; About me
 
-Atualmente estudo programação, estou finalizando meu curso de Full Stack na Kenzie Academy, onde a paixão por programação começou, pretendo me especializar em IA, estudar tecnologias úteis e ágeis, participar de projetos, trabalhar em empresas de tecnologia e fazer de tudo que estiver ao meu alcance para ajudar de alguma forma, a nossa espécie, evoluir! 
+Atualmente estudo programação, estou finalizando meu curso de Full Stack na Kenzie Academy, onde a paixão por programação começou, pretendo me especializar em IA, estudar tecnologias úteis e ágeis, participar de projetos, trabalhar em empresas de tecnologia e fazer de tudo que estiver ao meu alcance para ajudar de alguma forma, a nossa espécie, evoluir!
 
 ## 🔧 Technologies & Tools
+
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
@@ -39,22 +42,20 @@ Atualmente estudo programação, estou finalizando meu curso de Full Stack na Ke
 
 <!-- icons with padding -->
 
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+[1.1]: http://i.imgur.com/tXSoThF.png "twitter icon with padding"
+[2.1]: http://i.imgur.com/0o48UoR.png "github icon with padding"
 
 <!-- icons without padding -->
 
-[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
-[2.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
-[3.2]: https://raw.githubusercontent.com/bernardoenock/bernardoenock/master/linkedin-3-16.png (LinkedIn icon without padding)
-
+[1.2]: http://i.imgur.com/wWzX9uB.png "twitter icon without padding"
+[2.2]: http://i.imgur.com/9I6NRUm.png "github icon without padding"
+[3.2]: https://raw.githubusercontent.com/bernardoenock/bernardoenock/master/linkedin-3-16.png "LinkedIn icon without padding"
 
 <!-- links to your social media accounts -->
 
 [1]: https://twitter.com/Martin_Heinz_
 [2]: https://github.com/MartinHeinz
 [3]: https://www.linkedin.com/in/heinz-martin/
-
 
 <!-- Resources -->
 <!-- Icons: https://simpleicons.org/ -->
