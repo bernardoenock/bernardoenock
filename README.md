@@ -4,7 +4,7 @@ Formado em informática básica no ensino médio, amante da tecnologia, produtor
 
 ## &#x270d; About me
 
-Atualmente estou finalizando meu curso de Full Stack na Kenzie Academy Brasil, onde recomecei minha carreira como desenvolvedor, pretendo me especializar em IA, estudar tecnologias úteis e ágeis, participar de projetos, trabalhar em empresas de tecnologia e fazer de tudo que estiver ao meu alcance para ajudar de alguma forma, a nossa espécie, evoluir!
+Atualmente finalizei meu curso de Full Stack na Kenzie Academy, ando compartilhando minha trajetoria de carreira, estudando tecnologias úteis e ágeis, participando de projetos, buscando trabalhar em empresas de tecnologia e fazer de tudo que estiver ao meu alcance para ser um bom programador.
 
 ## 🔧 Technologies & Tools
 
