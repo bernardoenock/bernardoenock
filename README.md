@@ -1,10 +1,10 @@
 # Oi, eu sou Enock! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
 
-Formado em informática básica no ensino médio, amante da tecnologia, produtor digital e artista!.
+Habilidades em Design System, JavaScript, CSS, React, Next, TDD, Node, Docker, Python, noSQL, graphQL,  PHP,  GitFlow, entre outras tecnologias.
 
 ## &#x270d; About me
 
-Atualmente finalizei meu curso de Full Stack na Kenzie Academy, ando compartilhando minha trajetoria de carreira, estudando tecnologias úteis e ágeis, participando de projetos, buscando trabalhar em empresas de tecnologia e fazer de tudo que estiver ao meu alcance para ser um bom programador.
+Com meu café, minhas sopas de letrinhas e com minha paixão incansável pela ciência, encontro minha motivação em desvendar desafios complexos no digital e na vida. Sou um entusiasta dedicado ao estudo contínuo, movido pela emoção de criar, planejar e concretizar ideias inovadoras. Resolver problemas é minha missão, e transformá-los em soluções é minha maior recompensa.
 
 ## 🔧 Technologies & Tools
 
