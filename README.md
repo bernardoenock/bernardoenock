@@ -1,61 +1,76 @@
-# Oi, eu sou Enock! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" />
+# Oi, eu sou o Enock! 👋 <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" />
 
-Habilidades em Design System, JavaScript, CSS, React, Next, TDD, Node, Docker, Python, noSQL, graphQL,  PHP,  GitFlow, entre outras tecnologias.
+**Desenvolvedor Full-stack** • JavaScript / TypeScript • Node.js • React • Next.js • Docker • Python • noSQL • GraphQL • Testes (TDD) • Clean Code • Git. ☕️✨
 
-## &#x270d; About me
+> Sou movido por resolver problemas complexos, transformar ideias em produtos funcionais e aprender constantemente — normalmente com uma boa xícara de café.  
 
-Com meu café, minhas sopas de letrinhas e com minha paixão incansável pela ciência, encontro minha motivação em desvendar desafios complexos no digital e na vida. Sou um entusiasta dedicado ao estudo contínuo, movido pela emoção de criar, planejar e concretizar ideias inovadoras. Resolver problemas é minha missão, e transformá-los em soluções é minha maior recompensa.
+---
 
-## 🔧 Technologies & Tools
+## 🔭 Sobre mim
+Sou um entusiasta dedicado ao estudo contínuo e à construção de soluções reais. Trabalho com desenvolvimento web (front-end e back-end), APIs e projetos Dockerizados. Atualmente me aprofundando em IA e Machine Learning para aplicar em projetos práticos.  
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
 
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Backend-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Frontend-React-informational?style=flat&logo=react&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/DB-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Other-GraphQL-informational?style=flat&logo=graphql&logoColor=white&color=2bbc8a)
 
-## &#x1f4c8; GitHub Stats
+---
 
-<a href="https://github.com/bernardoenock/bernardoenock">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bernardoenock&hide=java,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
-</a>
-<a href="https://github.com/bernardoenock/bernardoenock">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=bernardoenock&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Enock's GitHub Stats" />
-</a>
+## 📌 Projetos (exemplos / destaque)
+> Escolha seus repositórios favoritos e fixe-os no seu perfil (Profile → Customize profile → Pinned repositories). Aqui vão sugestões de como exibir:
 
-<!-- <a href="https://github.com/bernardoenock/python-project-blueprint">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=bernardoenock&repo=python-project-blueprint&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
+- **Projeto A** — breve descrição do que faz e quais tecnologias foram usadas.  
+- **Projeto B** — breve descrição, destaques técnicos (ex.: Docker, testes, arquitetura).  
+- **Projeto C** — desafio resolvido, link para demo / deployment.
 
+*(Substitua os itens acima pelos seus repositórios fixados para mostrar trabalhos reais.)*
 
-<a href="https://github.com/bernardoenock/go-project-blueprint">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=bernardoenock&repo=go-project-blueprint&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>     -->
+---
 
-<!-- links to social media icons -->
+## 📈 Minhas estatísticas no GitHub
 
-<!-- icons with padding -->
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=bernardoenock&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Estatísticas do GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bernardoenock&hide=java,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=6" alt="Linguagens mais usadas" />
+</p>
 
-[1.1]: http://i.imgur.com/tXSoThF.png "twitter icon with padding"
-[2.1]: http://i.imgur.com/0o48UoR.png "github icon with padding"
+> Dica: ajuste os parâmetros (`bg_color`, `title_color`, `hide`, `langs_count`) conforme seu gosto. 🔧  
+(As imagens são geradas pelo projeto `github-readme-stats`.) :contentReference[oaicite:0]{index=0}
 
-<!-- icons without padding -->
+---
 
-[1.2]: http://i.imgur.com/wWzX9uB.png "twitter icon without padding"
-[2.2]: http://i.imgur.com/9I6NRUm.png "github icon without padding"
-[3.2]: https://raw.githubusercontent.com/bernardoenock/bernardoenock/master/linkedin-3-16.png "LinkedIn icon without padding"
+## 📫 Contato
+- GitHub: [@bernardoenock](https://github.com/bernardoenock) :contentReference[oaicite:1]{index=1}  
+- LinkedIn: [linkedin.com/in/bernardoenock](https://www.linkedin.com/in/bernardoenock/) *(adicione um pequeno resumo do LinkedIn se quiser que eu incorpore aqui)*
 
-<!-- links to your social media accounts -->
+---
 
-[1]: https://twitter.com/Martin_Heinz_
-[2]: https://github.com/MartinHeinz
-[3]: https://www.linkedin.com/in/heinz-martin/
+## 🧭 Por que essa estrutura?
+1. **Cabeçalho curto** com saudação para humanizar a página e facilitar a primeira impressão. 😄  
+2. **Sobre/Resumo** em uma frase para comunicar rapidamente sua proposta de valor.  
+3. **Badges** para visualmente mostrar stacks e ferramentas — rápida leitura para recrutadores.  
+4. **Projetos em destaque** (pinned repos) para levar visitantes direto ao código e demonstrações.  
+5. **GitHub Stats** para entregar um snapshot das contribuições e linguagens (dinâmico via SVG).  
+6. **Contato** claro e direto para facilitar conexões.  
 
-<!-- Resources -->
-<!-- Icons: https://simpleicons.org/ -->
-<!-- GitHub Stats: https://github.com/anuraghazra/github-readme-stats -->
-<!-- Emojis: https://emojipedia.org/emoji/ -->
-<!-- HTML Emojis: https://www.fileformat.info/index.htm -->
-<!-- Shields: https://shields.io/ -->
-<!-- Awesome GitHub Profile README: https://github.com/abhisheknaiidu/awesome-github-profile-readme -->
+---
+
+## ✍️ Próximos passos / Personalização
+- Quer que eu gere a versão já com *os seus* repositórios fixados (colocando links diretos e descrições) usando os repos reais do seu perfil? 🔎  
+- Quer que eu ajuste o visual das cartas `github-readme-stats` (tema, cores, esconder linguagens, etc.)? 🎨  
+- Posso gerar também um arquivo `README.md` pronto para commit e te entregar o conteúdo pronto. 📁
+
+---
+
+## Fontes / Referências
+- Seu perfil público no GitHub (biografia e repositórios). :contentReference[oaicite:2]{index=2}  
+- Projeto **github-readme-stats** — documentação e exemplos de uso para os cartões dinâmicos. :contentReference[oaicite:3]{index=3}
+- Boas práticas para READMEs de perfil (ex.: artigos e guias sobre README de perfil). :contentReference[oaicite:4]{index=4}
