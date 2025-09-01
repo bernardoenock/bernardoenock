@@ -80,5 +80,3 @@ Com meu café, minhas sopas de letrinhas e uma paixão incansável pela ciência
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bernardoenock)
 [![Portfólio](https://img.shields.io/badge/Portfólio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://portifolio-bernardoenock.vercel.app)
 
-<br>
-📧 **Email:** enockitda@gmail.com
