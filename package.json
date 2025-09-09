@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-3d",
+  "version": "1.0.0",
+  "description": "Interactive 3D portfolio built with Three.js and GSAP",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^25.0.0",
+    "gsap": "^3.12.5",
+    "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "keywords": [
+    "three.js",
+    "portfolio",
+    "gsap",
+    "vite",
+    "3d"
+  ],
+  "author": "Enock",
+  "license": "MIT"
+}
