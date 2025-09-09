@@ -27,7 +27,7 @@ const CONFIG = {
     autoForward: false,
   },
   model: {
-    path: "/models/isometric_room_house_game-ready_low_poly.glb",
+    path: "models/isometric_room_house_game-ready_low_poly.glb",
     scale: 1.5,
   },
   animation: {
@@ -195,7 +195,7 @@ function createTourPlayer() {
 
   player.addEventListener("click", () => {
     moveCameraTo(0); // "About"
-    showReadme("/readme.md");
+    showReadme("readme.md");
     gsap.to(player.style, {
       opacity: 0,
       duration: 0.5,
@@ -220,7 +220,7 @@ document.querySelectorAll("nav button").forEach((btn) => {
   btn.addEventListener("click", () => {
     const sectionIndex = btn.getAttribute("data-section");
     moveCameraTo(sectionIndex);
-    showReadme("/test.md");
+    showReadme("test.md");
   });
 });
 
