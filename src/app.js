@@ -1,6 +1,7 @@
 async function renderMarkdown(page) {
     try {
-        const response = await fetch(`${page}.md`);
+        console.log(`Carregando a página: ${page}`);
+        const response = await fetch(`assets/contents/${page}.md`);
         if (!response.ok) {
             throw new Error(`Erro ao buscar o arquivo: ${response.statusText}`);
         }
@@ -14,7 +15,7 @@ async function renderMarkdown(page) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    renderMarkdown('readme');
+    renderMarkdown('home');
 
     document.querySelectorAll('nav a').forEach(link => {
         link.addEventListener('click', (event) => {
