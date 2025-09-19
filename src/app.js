@@ -1,27 +1,16 @@
-async function renderMarkdown(page) {
-    try {
-        console.log(`Carregando a página: ${page}`);
-        const response = await fetch(`assets/contents/${page}.md`);
-        if (!response.ok) {
-            throw new Error(`Erro ao buscar o arquivo: ${response.statusText}`);
-        }
-        const markdown = await response.text();
-        const htmlContent = marked.parse(markdown);
-        document.getElementById('content').innerHTML = htmlContent;
-    } catch (error) {
-        console.error('Falha ao renderizar o Markdown:', error);
-        document.getElementById('content').innerHTML = `<p>Ocorreu um erro ao carregar o conteúdo.</p>`;
-    }
-}
+import { MarkdownRenderer } from "./core/markdownRenderer.js";
+import { Router } from "./core/router.js";
+import { NavBar } from "./components/navbar.js";
 
-document.addEventListener('DOMContentLoaded', () => {
-    renderMarkdown('home');
+const navBar = new NavBar([
+  { page: "home", label: "Home" },
+  { page: "about", label: "Sobre" },
+  { page: "contacts", label: "Contato" }
+]);
 
-    document.querySelectorAll('nav a').forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault();
-            const page = event.target.dataset.page;
-            renderMarkdown(page);
-        });
-    });
-});
+document.getElementById("header").appendChild(navBar.render());
+
+const renderer = new MarkdownRenderer("content");
+const router = new Router(renderer);
+
+router.init();
