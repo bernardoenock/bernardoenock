@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
-  <title>Bernardo Enock</title>
-  <link rel="stylesheet" href="styles.css">
-  <!-- Marked.js para renderizar markdown -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enock</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav>
-    <button data-section="0">About</button>
-    <button data-section="1">Projects</button>
-    <button data-section="2">Contact</button>
-  </nav>
-  <script type="module" src="main.js"></script>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" data-page="readme">Home</a></li>
+        <li><a href="#" data-page="about">Sobre</a></li>
+        <li><a href="#" data-page="contacts">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
