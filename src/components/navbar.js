@@ -2,17 +2,14 @@ import { Component } from "../core/component.js";
 
 export class NavBar extends Component {
   constructor(links) {
-    const navItems = links.map(
-      link =>
-        new Component("li", {}, [
-          new Component("a", { href: "#", "data-page": link.page }, [link.label])
-        ])
+    const navItems = links.map(link =>
+      new Component("li").appendChild(
+        new Component("a", { attributes: { href: "#", "data-page": link.page } }, [link.label])
+      )
     );
 
-    const nav = new Component("nav", {}, [
-      new Component("ul", {}, navItems)
-    ]);
+    const ul = new Component("ul").appendChildren(navItems);
 
-    super("header", {}, [nav]);
+    super("nav", {}, [ul]);
   }
 }

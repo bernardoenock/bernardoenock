@@ -1,16 +1,18 @@
 import { MarkdownRenderer } from "./core/markdownRenderer.js";
 import { Router } from "./core/router.js";
-import { NavBar } from "./components/navbar.js";
+import { HeaderTemplate } from "./templates/header.js";
+import { MainTemplate } from "./templates/main.js";
 
-const navBar = new NavBar([
+const links = [
   { page: "home", label: "Home" },
   { page: "about", label: "Sobre" },
   { page: "contacts", label: "Contato" }
-]);
+];
 
-document.getElementById("header").appendChild(navBar.render());
+HeaderTemplate(links).renderInto(document.body);
+
+MainTemplate("content").renderInto(document.body);
 
 const renderer = new MarkdownRenderer("content");
 const router = new Router(renderer);
-
 router.init();
