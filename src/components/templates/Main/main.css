@@ -1,8 +1,10 @@
 main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
   background: var(--color-main-background);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+}
+
+.container-md {
+
+  padding: 0 1.5rem;
 }
