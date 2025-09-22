@@ -7,23 +7,38 @@ body {
     color: #333;
 }
 
+/* ===== HEADER ===== */
 header {
     background: #333;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
+/* Grupos à esquerda e à direita */
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* ===== NAVBAR ===== */
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+    gap: 1.5rem;
 }
 
 nav li {
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav a {
@@ -37,6 +52,37 @@ nav a:hover {
     color: #ffd700;
 }
 
+/* ===== SEARCH INPUT ===== */
+#search-input {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    width: 250px;
+    max-width: 80%;
+}
+
+/* ===== ICON BUTTONS ===== */
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-button svg {
+    fill: #fff;
+    transition: fill 0.2s;
+}
+
+.icon-button:hover svg {
+    fill: #ffd700;
+}
+
+/* ===== MAIN ===== */
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -50,11 +96,60 @@ h1, h2, h3 {
     color: #333;
 }
 
-/* Adicione estilos para elementos de markdown, como links, listas, etc. */
 a {
     color: #007bff;
 }
 
 ul, ol {
     margin-bottom: 1rem;
+}
+
+/* ===== MODAL ===== */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    min-width: 300px;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.close-button {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.close-button:hover {
+    color: #ff0000;
+}
+
+/* Animação modal */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
 }
