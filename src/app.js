@@ -1,7 +1,8 @@
 import { MarkdownRenderer } from "./core/markdownRenderer.js";
 import { Router } from "./core/router.js";
-import { HeaderTemplate } from "./templates/header.js";
-import { MainTemplate } from "./templates/main.js";
+import { GlobalState } from "./core/stateManager.js";
+import { HeaderTemplate } from "./components/templates/Header/header.js";
+import { MainTemplate } from "./components/templates/Main/main.js";
 
 const links = [
   { page: "home", label: "Home" },
@@ -10,9 +11,12 @@ const links = [
 ];
 
 HeaderTemplate(links).renderInto(document.body);
-
 MainTemplate("content").renderInto(document.body);
 
 const renderer = new MarkdownRenderer("content");
 const router = new Router(renderer);
 router.init();
+
+GlobalState.subscribe("searchQuery", (query) => {
+  console.log("🔍 Busca:", query);
+});
