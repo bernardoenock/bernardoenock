@@ -19,31 +19,34 @@ export function HeaderTemplate(links) {
 
   const themeToggleButton = new ToggleButton(handleToggleTheme);
 
-  const contantModal = new Component("div", { attributes: { class: "" } }, [navBar, themeToggleButton]);
+  const modalNavBar = new NavBar(links);
+  const modalContent = new Component("div", { attributes: { class: "settings-modal-content" } }, [
+    modalNavBar,
+    themeToggleButton
+  ]);
 
-  const settingsModal = new Modal("settings-modal", "xConfigurações", contantModal);
+  const settingsModal = new Modal("settings-modal", "Configurações", modalContent);
+
   const settingsIcon = new SettingsIcon(() => {
     document.getElementById("settings-modal").classList.remove("hidden");
   });
 
-
-
   const containerHeader = new Component("header", { attributes: { class: "header-container" } });
+
   const containerHomeIcon = new Component("div", { attributes: { class: "header-left" } }, [homeIcon]);
-  const containerSettingsIcon = new Component(
-    "div", 
-    { attributes: { class: "header-right" } }, 
-    [
-      searchInput, 
-      settingsIcon,
-      themeToggleButton,
-      settingsModal
-    ]
-  );
+
+  const containerNavBar = new Component("div", { attributes: { class: "header-center" } }, [navBar]);
+
+  const containerRight = new Component("div", { attributes: { class: "header-right" } }, [
+    searchInput,
+    settingsIcon,
+    themeToggleButton,
+    settingsModal
+  ]);
 
   return containerHeader.appendChildren([
-      containerHomeIcon,
-      navBar,
-      containerSettingsIcon
-    ]);
+    containerHomeIcon,
+    containerNavBar,
+    containerRight
+  ]);
 }
