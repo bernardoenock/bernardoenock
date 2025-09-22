@@ -1,0 +1,53 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: var(--color-modal-background);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  min-width: 300px;
+  max-width: 500px;
+  position: relative;
+  box-shadow: var(--box-shadow-modal);
+  animation: fadeIn var(--transition-medium) ease-in-out;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-close-button);
+  font-weight: bold;
+  transition: color var(--transition-fast);
+}
+
+.close-button:hover {
+  color: var(--color-hover-close-button);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

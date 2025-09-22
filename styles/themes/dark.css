@@ -1,0 +1,17 @@
+:root {
+  --color-background: var(--color-dark);
+  --color-text: var(--color-light);
+  --color-heading: var(--color-light);
+  --color-link: var(--color-info);
+  --color-header-background: #212529;
+  --color-header-text: var(--color-white);
+  --color-icon-fill: var(--color-light);
+  --color-hover-icon: #17a2b8;
+  --color-modal-background: #212529;
+  --color-close-button: var(--color-light);
+  --color-hover-close-button: #e74c3c;
+  --color-main-background: #343a40;
+  --color-hover-link: #17a2b8;
+  --color-input-background: #495057;
+  --color-input-text: var(--color-white);
+}

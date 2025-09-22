@@ -1,0 +1,23 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  color: var(--color-header-text);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color var(--transition-medium);
+}
+
+nav a:hover {
+  color: var(--color-hover-link);
+}

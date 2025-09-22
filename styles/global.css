@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import 'themes/variables.css';
+@import 'themes/light.css' layer(theme);
+@import '../src/components/atoms/Modal/modal.css' layer(components);
+@import '../src/components/atoms/SearchInput/searchInput.css' layer(components);
+@import '../src/components/atoms/SettingsIcon/settingsIcon.css' layer(components);
+@import '../src/components/atoms/HomeIcon/homeIcon.css' layer(components);
+@import '../src/components/atoms/ToggleButton/toggleButton.css' layer(components);
+@import '../src/components/molecules/Navbar/navbar.css' layer(components);
+@import '../src/components/templates/Header/header.css' layer(components);
+@import '../src/components/templates/Main/main.css' layer(components);
+
+:root {
+  /* ... Variáveis padrão do tema claro */
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  margin: var(--margin);
+  padding: var(--padding);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  margin: 0;
+}
+
+body.dark-theme {
+    --color-background: var(--color-dark);
+    --color-text: var(--color-light);
+    --color-heading: var(--color-light);
+    --color-link: var(--color-info);
+    --color-header-background: #212529;
+    --color-header-text: var(--color-white);
+    --color-icon-fill: var(--color-light);
+    --color-hover-icon: #17a2b8;
+    --color-modal-background: #212529;
+    --color-close-button: var(--color-light);
+    --color-hover-close-button: #e74c3c;
+    --color-main-background: #343a40;
+    --color-hover-link: #17a2b8;
+    --color-input-background: #495057;
+    --color-input-text: var(--color-white);
+}
+
+h1, h2, h3, p, li {
+  color: var(--color-heading);
+}
+
+a {
+  color: var(--color-link);
+}
+
+ul, ol {
+  margin-bottom: var(--spacing-unit);
+}
