@@ -3,10 +3,12 @@
 @import 'themes/light.css' layer(theme);
 @import '../src/components/atoms/Modal/modal.css' layer(components);
 @import '../src/components/atoms/SearchInput/searchInput.css' layer(components);
-@import '../src/components/atoms/SettingsIcon/settingsIcon.css' layer(components);
 @import '../src/components/atoms/HomeIcon/homeIcon.css' layer(components);
+@import '../src/components/atoms/SettingsIcon/settingsIcon.css' layer(components);
+@import '../src/components/atoms/SearchIcon/searchIcon.css' layer(components);
 @import '../src/components/atoms/ToggleButton/toggleButton.css' layer(components);
 @import '../src/components/molecules/Navbar/navbar.css' layer(components);
+@import '../src/components/organisms/topMain.css' layer(components);
 @import '../src/components/templates/Header/header.css' layer(components);
 @import '../src/components/templates/Main/main.css' layer(components);
 
@@ -45,12 +47,4 @@ body.dark-theme {
 
 h1, h2, h3, p, li {
   color: var(--color-heading);
-}
-
-a {
-  color: var(--color-link);
-}
-
-ul, ol {
-  margin-bottom: var(--spacing-unit);
 }
