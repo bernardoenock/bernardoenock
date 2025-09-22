@@ -70,12 +70,8 @@ Com meu café, minhas sopas de letrinhas e uma paixão incansável pela ciência
 <a href="https://github.com/bernardoenock/bernardoenock">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bernardoenock&hide=java,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=5" alt="Top Languages" />
 </a>
-<a href="https://github.com/bernardoenock/bernardoenock">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=bernardoenock&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Bernardo Enock's GitHub Stats" />
-</a>
 
 ## 🔗 Conecte-se Comigo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bernardoenock)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bernardoenock)
-[![Portfólio](https://img.shields.io/badge/Portfólio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://portifolio-bernardoenock.vercel.app)
