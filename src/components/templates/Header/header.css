@@ -5,13 +5,39 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 0.75rem;
 }
 
 .header-left,
-.header-right {
+.header-right,
+.header-center {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.header-center {
+  display: none;
+}
+
+.theme-toggle-button {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header-left,
+  .header-right .icon-button,
+  .header-right .search-input {
+    display: none;
+  }
+
+  .header-center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .theme-toggle-button {
+    display: inline-flex;
+  }
 }
