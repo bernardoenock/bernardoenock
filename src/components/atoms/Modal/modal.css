@@ -24,6 +24,16 @@
   position: relative;
   box-shadow: var(--box-shadow-modal);
   animation: fadeIn var(--transition-medium) ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.settings-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
 }
 
 .close-button {

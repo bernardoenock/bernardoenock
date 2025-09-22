@@ -1,0 +1,17 @@
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-icon-fill);
+  pointer-events: none;
+}
+
+.search-icon svg {
+  fill: none;
+  stroke: var(--color-icon-fill);
+  transition: stroke var(--transition-fast);
+}
+
+.search-icon:hover svg {
+  stroke: var(--color-hover-icon);
+}

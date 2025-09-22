@@ -4,7 +4,9 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
+  height: 1rem;
 }
 
 nav li {
@@ -12,7 +14,7 @@ nav li {
 }
 
 nav a {
-  color: var(--color-header-text);
+  color: var(--color-text);
   text-decoration: none;
   font-weight: bold;
   transition: color var(--transition-medium);
