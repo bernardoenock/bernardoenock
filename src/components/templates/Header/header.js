@@ -8,7 +8,7 @@ import { NavBar } from "../../molecules/Navbar/navbar.js";
 
 export function HeaderTemplate(links) {
   const navBar = new NavBar(links);
-  const searchInput = new SearchInput("Buscar no portfólio...");
+  const searchInput = new SearchInput();
   const homeIcon = new HomeIcon();
 
   const handleToggleTheme = () => {
