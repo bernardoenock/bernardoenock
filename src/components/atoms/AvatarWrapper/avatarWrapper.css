@@ -1,0 +1,22 @@
+.top-main__avatar-wrapper {
+  margin-top: -50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--color-main-background);
+  width: 100px;
+  height: 100px;
+}
+
+.top-main__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* @media (min-width: 768px) {
+  .top-main__avatar-wrapper {
+    width: 140px;
+    height: 140px;
+    margin-top: -70px;
+  }
+} */
