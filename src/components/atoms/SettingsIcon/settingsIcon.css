@@ -1,18 +1,16 @@
-.icon-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 4px;
-  display: flex;
+.search-icon {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  color: var(--color-icon-fill);
+  flex-shrink: 0;
+  pointer-events: none;
 }
 
-.icon-button svg {
-  fill: var(--color-icon-fill);
-  transition: fill var(--transition-fast);
-}
-
-.icon-button:hover svg {
-  fill: var(--color-hover-icon);
+.search-icon svg {
+  fill: none;
+  stroke: var(--color-icon-fill);
+  width: 20px;
+  height: 20px;
+  transition: stroke var(--transition-fast);
 }
