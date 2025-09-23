@@ -7,24 +7,29 @@
 @import '../src/components/atoms/SettingsIcon/settingsIcon.css' layer(components);
 @import '../src/components/atoms/SearchIcon/searchIcon.css' layer(components);
 @import '../src/components/atoms/ToggleButton/toggleButton.css' layer(components);
+@import '../src/components/atoms/AvatarWrapper/avatarWrapper.css' layer(components);
+@import '../src/components/atoms/MainInfo/mainInfo.css' layer(components);
+@import '../src/components/atoms/BackgroundImage/backgroundImage.css' layer(components);
 @import '../src/components/molecules/Navbar/navbar.css' layer(components);
+@import '../src/components/molecules/ProfileWrapper/profileWrapper.css' layer(components);
 @import '../src/components/organisms/topMain.css' layer(components);
 @import '../src/components/templates/Header/header.css' layer(components);
 @import '../src/components/templates/Main/main.css' layer(components);
 
 :root {
-  /* ... Variáveis padrão do tema claro */
   font-family: var(--font-family);
   line-height: var(--line-height);
-  margin: var(--margin);
-  padding: var(--padding);
   background-color: var(--color-background);
   color: var(--color-text);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 body.dark-theme {
