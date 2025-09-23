@@ -19,8 +19,8 @@
   background: var(--color-modal-background);
   padding: 1.5rem;
   border-radius: var(--border-radius);
-  min-width: 300px;
-  max-width: 500px;
+  min-width: 10%;
+  max-width: 90%;
   position: relative;
   box-shadow: var(--box-shadow-modal);
   animation: fadeIn var(--transition-medium) ease-in-out;
@@ -60,4 +60,12 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+
+@media (min-width: 1012px) {
+
+  .modal-content {
+    max-width: 500px;
+  }
+
 }

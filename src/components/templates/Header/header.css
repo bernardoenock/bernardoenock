@@ -68,11 +68,11 @@ header {
   background: rgba(0, 0, 0, 0.05);
 }
 
-.theme-toggle-button {
+.header-right > .theme-toggle-button {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1012px) {
   .header-left {
     flex: 0 0 auto;
   }
@@ -90,7 +90,7 @@ header {
     width: 40%;
   }
 
-  .theme-toggle-button {
+  .header-right > .theme-toggle-button {
     display: inline-flex;
   }
 
