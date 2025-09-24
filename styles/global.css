@@ -9,8 +9,8 @@
 @import '../src/components/atoms/ToggleButton/toggleButton.css' layer(components);
 @import '../src/components/atoms/AvatarWrapper/avatarWrapper.css' layer(components);
 @import '../src/components/atoms/MainInfo/mainInfo.css' layer(components);
-@import '../src/components/atoms/BackgroundImage/backgroundImage.css' layer(components);
 @import '../src/components/molecules/Navbar/navbar.css' layer(components);
+@import '../src/components/molecules/CardBtnsMain/cardBtnsMain.css' layer(components);
 @import '../src/components/molecules/ProfileWrapper/profileWrapper.css' layer(components);
 @import '../src/components/organisms/topMain.css' layer(components);
 @import '../src/components/templates/Header/header.css' layer(components);
