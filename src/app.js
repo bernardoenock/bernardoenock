@@ -11,7 +11,9 @@ const links = [
 ];
 
 HeaderTemplate(links).renderInto(document.body);
-MainTemplate("content").renderInto(document.body);
+
+const main = MainTemplate("content");
+main.renderInto(document.body);
 
 const renderer = new MarkdownRenderer("content");
 const router = new Router(renderer);

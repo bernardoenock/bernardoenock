@@ -3,6 +3,7 @@ import { TopMain } from "../../organisms/TopMain/topMain.js";
 
 export function MainTemplate(targetId) {
   const topMain = new TopMain();
+
   const containerMD = new Component("div", { 
     attributes: { id: targetId, class: "container-md" } 
   });
@@ -14,17 +15,19 @@ export function MainTemplate(targetId) {
     containerMD
   ]);
 
-  const backgroundVideo = new Component("video", {
-    attributes: { 
-      autoplay: true,
-      muted: true,
-      loop: true,
-      playsinline: true,
-      class: "background-video"
-    }
-  }, [
-    new Component("source", { attributes: { src: "https://bernardoenock.github.io/bernardoenock/assets/videos/points.mp4", type: "video/mp4" } })
+  const backgroundGIF = new Component("div", { 
+    attributes: { class: "background-gif" } 
+  });
+
+  const backgroundGIF2 = new Component("div", { 
+    attributes: { class: "background-gif-2" } 
+  });
+
+  const mainComponent = new Component("main", {}, [
+    backgroundGIF,
+    backgroundGIF2,
+    containerMain
   ]);
 
-  return new Component("main", {}, [backgroundVideo, containerMain]);
+  return mainComponent;
 }
