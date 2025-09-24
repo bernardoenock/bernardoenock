@@ -1,0 +1,68 @@
+.card-btns-main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* Estilo base para botões ícones (igual X) */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-icon-fill);
+  border-radius: 9999px; /* botão circular */
+  background-color: transparent;
+  color: var(--color-icon-fill);
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: background-color var(--transition-fast),
+              border-color var(--transition-fast),
+              color var(--transition-fast);
+}
+
+.icon-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--color-hover-icon);
+  color: var(--color-hover-icon);
+}
+
+.icon-button svg {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilo do botão Follow */
+.follow-button {
+  border: 1px solid var(--color-icon-fill);
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  height: 36px;
+  font-size: var(--font-size-small);
+  font-weight: 700;
+  background-color: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: background-color var(--transition-fast),
+              border-color var(--transition-fast),
+              color var(--transition-fast);
+}
+
+.follow-button:hover {
+  background-color: var(--color-hover-icon);
+  border-color: var(--color-hover-icon);
+  color: var(--color-white);
+}
+
+
+@media (min-width: 490px) {
+  .card-btns-main {
+
+    justify-content: flex-end;
+    width: 82%;
+  }
+
+}
