@@ -1,5 +1,5 @@
 import { Component } from "../../../core/component.js";
-import { TopMain } from "../../organisms/topMain.js";
+import { TopMain } from "../../organisms/TopMain/topMain.js";
 
 export function MainTemplate(targetId) {
   const topMain = new TopMain();
@@ -23,7 +23,7 @@ export function MainTemplate(targetId) {
       class: "background-video"
     }
   }, [
-    new Component("source", { attributes: { src: "./assets/videos/points.mp4", type: "video/mp4" } })
+    new Component("source", { attributes: { src: "https://bernardoenock.github.io/bernardoenock/assets/videos/points.mp4", type: "video/mp4" } })
   ]);
 
   return new Component("main", {}, [backgroundVideo, containerMain]);
