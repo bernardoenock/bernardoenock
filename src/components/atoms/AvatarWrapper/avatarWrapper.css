@@ -1,10 +1,14 @@
+.top-main__avatar-container {
+
+}
+
 .top-main__avatar-wrapper {
-  margin-top: -50px;
+  margin-top: -35px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid var(--color-main-background);
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 
 .top-main__avatar {
@@ -13,10 +17,9 @@
   object-fit: cover;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .top-main__avatar-wrapper {
-    width: 140px;
-    height: 140px;
-    margin-top: -70px;
+    width: 100px;
+    height: 100px;
   }
-} */
+}
