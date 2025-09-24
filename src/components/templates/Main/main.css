@@ -13,7 +13,7 @@ main {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: url("./assets/imgs/gears.gif") center center no-repeat;
+  background: url("https://bernardoenock.github.io/bernardoenock/assets/imgs/gears.gif") center center no-repeat;
   background-size: cover;
   z-index: -1;
 }
@@ -24,7 +24,7 @@ main {
     left: 0;
     width: 100%;
     height: 300vh;
-    background: url("./assets/imgs/steampunk-gears.gif") center center no-repeat;
+    background: url("https://bernardoenock.github.io/bernardoenock/assets/imgs/steampunk-gears.gif") center center no-repeat;
     background-size: cover;
     z-index: -1;
 }
