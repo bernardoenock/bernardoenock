@@ -23,7 +23,7 @@ export function MainTemplate(targetId) {
       class: "background-video"
     }
   }, [
-    new Component("source", { attributes: { src: "/assets/videos/points.mp4", type: "video/mp4" } })
+    new Component("source", { attributes: { src: "./assets/videos/points.mp4", type: "video/mp4" } })
   ]);
 
   return new Component("main", {}, [backgroundVideo, containerMain]);
