@@ -1,6 +1,6 @@
-import { Component } from "../../core/component.js";
-import { ProfileWrapper } from "../molecules/ProfileWrapper/profileWrapper.js";
-import { NavMain } from "../molecules/NavMain/navMain.js";
+import { Component } from "../../../core/component.js";
+import { ProfileWrapper } from "../../molecules/ProfileWrapper/profileWrapper.js";
+import { NavMain } from "../../molecules/NavMain/navMain.js";
 
 export class TopMain extends Component {
   constructor() {
