@@ -19,13 +19,8 @@ export function MainTemplate(targetId) {
     attributes: { class: "background-gif" } 
   });
 
-  const backgroundGIF2 = new Component("div", { 
-    attributes: { class: "background-gif-2" } 
-  });
-
   const mainComponent = new Component("main", {}, [
     backgroundGIF,
-    backgroundGIF2,
     containerMain
   ]);
 
