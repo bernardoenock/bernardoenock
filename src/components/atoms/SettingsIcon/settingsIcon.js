@@ -1,21 +1,20 @@
-import { Component } from "../../../core/component.js";
+import { Button } from "../Button/button.js";
 
-export class SettingsIcon extends Component {
+export class SettingsIcon extends Button {
   constructor(onClick) {
-    super("button", {
-      attributes: { class: "icon-button settings-icon", id: "settings-button", type: "button" },
-      events: { click: onClick }
-    }, [
+    super(
       `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
         fill="currentColor" width="24" height="24" aria-hidden="true">
         <path d="M19.14,12.94a1.72,1.72,0,0,0,0-1.88l2.11-1.65a.43.43,0,0,0,.1-.54l-2-3.46a.43.43,0,0,0-.52-.19l-2.49,1a6.5,6.5,0,0,0-1.62-.94l-.38-2.65A.43.43,0,0,0,13.93,3H10.07a.43.43,0,0,0-.42.36l-.38,2.65a6.5,6.5,0,0,0-1.62.94l-2.49-1a.43.43,0,0,0-.52.19l-2,3.46a.43.43,0,0,0,.1.54l2.11,1.65a1.72,1.72,0,0,0,0,1.88L3.74,14.59a.43.43,0,0,0-.1.54l2,3.46a.43.43,0,0,0,.52.19l2.49-1a6.5,6.5,0,0,0,1.62.94l.38,2.65a.43.43,0,0,0,.42.36h3.86a.43.43,0,0,0,.42-.36l.38-2.65a6.5,6.5,0,0,0,1.62-.94l2.49,1a.43.43,0,0,0,.52-.19l2-3.46a.43.43,0,0,0-.1-.54ZM12,15.6A3.6,3.6,0,1,1,15.6,12,3.6,3.6,0,0,1,12,15.6Z"/>
-      </svg>`
-    ]);
-  }
-
-  render() {
-    const element = super.render();
-    element.innerHTML = this.children.join("");
-    return element;
+      </svg>`, 
+      onClick,
+      { 
+        class: "settings-icon", 
+        id: "settings-button", 
+        type: "button" 
+      }
+    );
   }
 }
+
+

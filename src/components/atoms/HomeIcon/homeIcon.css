@@ -1,4 +1,4 @@
-.icon-button {
+.home-icon {
   background: none;
   border: none;
   cursor: pointer;
@@ -8,11 +8,11 @@
   justify-content: center;
 }
 
-.icon-button svg {
+.home-icon svg {
   fill: var(--color-icon-fill);
   transition: fill var(--transition-fast);
 }
 
-.icon-button:hover svg {
+.home-icon:hover svg {
   fill: var(--color-hover-icon);
 }
