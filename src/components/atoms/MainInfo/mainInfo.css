@@ -7,17 +7,24 @@
 .top-main__container {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin-top: 0.5rem;
   gap: 0.5rem;
 }
 
 .top-main__name {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: bold;
+  margin: 0;
+  text-align: start;
 }
 
 .top-main__position {
-  font-size: 0.45rem;
+  font-size: 0.5rem;
   color: var(--text-secondary, #666);
+  margin: 0;
+  text-align: start;
 }
 
 .top-main__headline {
@@ -31,6 +38,17 @@
   color: var(--text-secondary, #666);
 }
 
+/* @media (min-width: 555px) {
+
+  .top-main__name {
+    font-size: 1.2rem;
+  }
+
+  .top-main__position {
+    font-size: 0.7rem;
+  }
+} */
+
 @media (min-width: 555px) {
 
   .top-main__name {
@@ -39,6 +57,7 @@
 
   .top-main__position {
     font-size: 0.7rem;
+    padding-top: 0.2rem;
   }
 }
 
