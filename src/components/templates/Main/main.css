@@ -4,36 +4,25 @@ main {
   position: relative;
   overflow: hidden;
   background-color: var(--color-black);
-  z-index: -2;
+  z-index: 0;
 }
 
 .background-gif {
   position: absolute;
   top: 9vh;
   left: 0;
-  width: 100%;
-  height: 120vh;
-  background: url("https://bernardoenock.github.io/bernardoenock/assets/imgs/gears.gif") center center no-repeat;
-  background-size: cover;
+  width: 100vw;
+  height: 100%;
+  background: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aDl0amVjOWpzeDgwMmd2MnlqdDdkMnp4MWRqaWNpd2ZmcTR2aGFydCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/ehssta24116nk9VWyN/giphy.gif")
+    center top repeat-y;
+  background-size: 100% auto;
   z-index: -1;
-}
-
-.background-gif-2 {
-    position: absolute;
-    top: 110vh;
-    left: 0;
-    width: 100%;
-    height: 400vh;
-    background: url("https://bernardoenock.github.io/bernardoenock/assets/imgs/steampunk-gears.gif") center center no-repeat;
-    background-size: cover;
-    z-index: -1;
 }
 
 .container-main {
   background: var(--color-main-background);
   border-radius: 6px;
   box-shadow: var(--box-shadow);
-  min-height: calc(100vh - 3.5rem);
   box-sizing: border-box;
   display: block;
   width: 100%;
@@ -48,4 +37,5 @@ main {
   padding: 0 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
+  z-index: 1;
 }
